@@ -14,7 +14,7 @@ function ChangeCarroussel(value)
     currentIndex = (currentIndex+value)%pointsn
     if(currentIndex < 0) currentIndex = pointsn-1
 
-    container.style.transform = `translateX(${940 * -(currentIndex)}px)`
+    container.style.transform = `translateX(${775 * -(currentIndex)}px)`
     ChangePoint()
 }
 
